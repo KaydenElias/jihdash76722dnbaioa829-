@@ -554,6 +554,10 @@ local plr = game.Players.LocalPlayer
               start()
           end)
 
+TeleportsTab:AddButton("uphill guns", function()
+
+game.player.string.char,Position = 
+
 
 
 
