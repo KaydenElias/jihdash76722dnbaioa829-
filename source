@@ -38,6 +38,7 @@ local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com
   local Window = Library:CreateWindow("Kg2s private menu", Vector2.new(492, 598), Enum.KeyCode.P)
    local AimingTab = Window:CreateTab("Aiming")
    local MiscTab = Window:CreateTab("Misc")
+   local TeleportsTab = Window:CreateTab("Teleports")
    local sector1 = AimingTab:CreateSector("Targeting", "left")
    sector1:AddButton("Target Aim", function()
    local Settings = {
@@ -552,6 +553,7 @@ local plr = game.Players.LocalPlayer
               end)
               start()
           end)
+
 
 
 
