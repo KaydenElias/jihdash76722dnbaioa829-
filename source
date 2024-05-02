@@ -553,7 +553,10 @@ local plr = game.Players.LocalPlayer
               end)
               start()
           end)
-TeleportsTab:AddButton("test")
+sector9 = TeleportsTab:CreateSector("Locations", "left")
+sector9:AddButton("Uphill Gunz", function()
+
+player.position
 
 
 
