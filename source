@@ -1,4 +1,4 @@
- game.StarterGui:SetCore(
+game.StarterGui:SetCore(
    "SendNotification",
    {
        Title = "kg2`s OP lock",
